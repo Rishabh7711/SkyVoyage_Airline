@@ -1,0 +1,61 @@
+/* Base styles for body */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f0f4f8; /* Light, neutral background for contrast */
+  margin: 0;
+  padding: 0;
+}
+
+/* Center-align the wrapper and ensure full viewport height */
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #e0f7fa, #ffebee); /* Soft gradient for a subtle look */
+}
+
+/* Styling the form container */
+.form-container {
+  background-color: #ffffff; /* White background for the form */
+  padding: 32px; /* Adjusted padding for a clean look */
+  border-radius: 8px; /* Slightly more rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow effect for a modern feel */
+  max-width: 400px; /* Adjusted width for better presentation */
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center; /* Center-align text within the form */
+}
+
+/* Styling the form inputs */
+.form-input {
+  width: 100%;
+  padding: 12px; /* Adjusted padding for consistency */
+  margin: 10px 0; /* Adjusted margin for spacing between fields */
+  border: 1px solid #b0bec5; /* Slightly darker border color for contrast */
+  border-radius: 4px; /* Slightly rounded corners */
+  box-sizing: border-box;
+  font-size: 14px;
+  color: #212121; /* Darker text color for improved readability */
+}
+
+/* Styling the form button */
+.form-button {
+  width: 100%;
+  padding: 12px; /* Adjusted padding for balance */
+  margin: 16px 0;
+  background-color: #00796b; /* Teal background color */
+  color: white;
+  border: none;
+  border-radius: 4px; /* Consistent rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Added transform transition */
+  font-size: 14px;
+  font-weight: 600; /* Bold text for emphasis */
+}
+
+/* Button hover effect */
+.form-button:hover {
+  background-color: #004d40; /* Darker teal on hover for visual feedback */
+  transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
